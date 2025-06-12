@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
-<head> 
+<head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Invitación Juan y Laura</title>
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
   <style>
@@ -10,11 +11,7 @@
       padding: 0;
       height: 100vh;
       font-family: 'Segoe UI', sans-serif;
-      background-color: white;
-      background-image: url('https://i.imgur.com/wAe6msF.png'); /* Borde floral */
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-      background-position: center;
+      background-color: #ffeef4; /* Rosa suave */
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -24,14 +21,24 @@
 
     h1 {
       font-family: 'Great Vibes', cursive;
-      font-size: 3em;
+      font-size: 2.8em;
       color: #c71585;
-      margin-bottom: 0.4em;
+      margin-bottom: 0.3em;
     }
 
     p {
-      font-size: 1.2em;
-      color: #333;
+      font-size: 1.1em;
+      color: #444;
+      padding: 0 1em;
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 2em;
+      }
+      p {
+        font-size: 1em;
+      }
     }
   </style>
   <meta http-equiv="refresh" content="5;url=https://www.canva.com/tu-invitacion">
@@ -41,3 +48,4 @@
   <p>¡Nos alegra compartir este momento tan especial con ustedes!</p>
 </body>
 </html>
+
